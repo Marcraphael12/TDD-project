@@ -1,8 +1,6 @@
 require_relative '../solver_tdd'
 
 describe Solver do
-  # as solver is a class with methods
-  # we create a new Solver
   before :each do
     @solver = Solver.new
   end
