@@ -1,7 +1,7 @@
 class Solver
-  
   def factorial(int)
     raise RuntimeError if int.negative?
+
     initial = 1
     factorial = 1
 
@@ -24,7 +24,6 @@ class Solver
     end
   end
 
- 
   def reverse(str)
     str.reverse
   end
