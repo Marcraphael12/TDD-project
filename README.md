@@ -71,7 +71,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd test-driven-dev
+  cd TDD-project
   bundle install
 ```
 
