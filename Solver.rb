@@ -18,6 +18,7 @@ class Solver
     end
     factorial
   end
+
   # 2: fizzbuzz
   def fizzbuzz(int)
     # if int % 3 and int % 5: return fizzbuzz
