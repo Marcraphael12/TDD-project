@@ -6,4 +6,8 @@ describe Solver do
   before :each do
     @solver = Solver.new
   end
+
+	it 'retunr "fizz" when N is divisible by 3' do
+		expect(@solver.fizzbuzz(3)).to eql '"fizz"'
+	end
 end
