@@ -7,7 +7,11 @@ describe Solver do
     @solver = Solver.new
   end
 
-	it 'reutur "olleH" when "Hello is given"' do
+	it 'return "olleH" when "Hello" is given' do
 		expect(@solver.reverse("Hello")).to eql "olleH"
+	end
+
+	it 'return an empty string if an empty string is given' do
+		expect(@solver.reverse('')).to eql ''
 	end
 end
