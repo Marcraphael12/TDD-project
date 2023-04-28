@@ -1,4 +1,4 @@
-require_relative '../Solver'
+require_relative '../solver_tdd'
 
 describe Solver do
   # as solver is a class with methods
@@ -8,7 +8,7 @@ describe Solver do
   end
 
   it 'return "olleH" when "Hello" is given' do
-    expect(@solver.reverse("Hello")).to eql "olleH"
+    expect(@solver.reverse('Hello')).to eql 'olleH'
   end
 
   it 'return an empty string if an empty string is given' do

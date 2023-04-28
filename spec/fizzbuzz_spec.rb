@@ -1,4 +1,4 @@
-require_relative '../Solver'
+require_relative '../solver_tdd'
 
 describe Solver do
   # as solver is a class with methods
