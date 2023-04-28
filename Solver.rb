@@ -22,6 +22,19 @@ class Solver
 	
 	# 2: fizzbuzz
 	def fizzbuzz(int)
+		# if int % 3 and int % 5: return fizzbuzz
+		# if int % 3: return fizz
+		# if int % 5: return buzz
+		# if not: return a string
+		if (int % 3).zero? && (int % 5).zero?
+			'"fizzbuzz"'
+		elsif (int % 3).zero?
+			'"fizz"'
+		elsif (int % 5).zero?
+			'"buzz"'
+		else
+			int.to_s
+		end
 	end
 
 	# 3: reverse string
