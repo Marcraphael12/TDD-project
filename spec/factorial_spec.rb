@@ -12,10 +12,10 @@ describe Solver do
   end
 
   it 'raise a runtime error when the given Integer is negative' do
-    expect{ @solver.factorial(-2) }.to raise_error(RuntimeError)
+    expect { @solver.factorial(-2) }.to raise_error(RuntimeError)
   end
 
-  it'Return 24 for factorial of 4' do
+  it 'Return 24 for factorial of 4' do
     expect(@solver.factorial(4)).to eql 24
   end
 end
