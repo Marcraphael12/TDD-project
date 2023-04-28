@@ -25,9 +25,7 @@ class Solver
     end
   end
 
-  # 3: reverse string
   def reverse(str)
-    # just reverse the string 😅
     str.reverse
   end
 end
