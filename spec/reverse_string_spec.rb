@@ -6,4 +6,8 @@ describe Solver do
   before :each do
     @solver = Solver.new
   end
+
+	it 'reutur "olleH" when "Hello is given"' do
+		expect(@solver.reverse("Hello")).to eql "olleH"
+	end
 end
