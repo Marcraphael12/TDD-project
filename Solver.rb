@@ -39,5 +39,7 @@ class Solver
 
 	# 3: reverse string
 	def reverse(str)
+		# just reverse the string 😅
+		str.reverse
 	end
 end
