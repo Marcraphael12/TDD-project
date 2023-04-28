@@ -18,4 +18,8 @@ describe Solver do
   it 'return "fizzbuzz" whe N is divisible by both 3 and 5' do
     expect(@solver.fizzbuzz(15)).to eql '"fizzbuzz"'
   end
+
+  it 'return a string if it N is not divisible by 3 or 5' do
+    expect(@solver.fizzbuzz(7)).to eql('7')
+  end
 end
